@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+:root {
+    font-family: "Lato", "Roboto", sans-serif;
+    --primary-color: #253788;
+    --button-hover-color: #c59c60;
+    --button-color: #b8853a;
+    --secondary-color: #b8853a;
+    --txt-color: #302c4e;
+    --bg-color: #f3f3f3;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

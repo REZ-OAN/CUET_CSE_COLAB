@@ -1,0 +1,33 @@
+.admin-action-panel {
+    width: 20%;
+    border: 1.5px solid #19265f;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 15px;
+    background-color: white;
+}
+.admin-info {
+    display: flex;
+    width: 95%;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    font-family: "Lota";
+    font-size: large;
+    background-color: var(--button-hover-color);
+    padding: 10px;
+    gap: 1rem;
+    border-radius: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+.actions-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    row-gap: 0.6rem;
+}

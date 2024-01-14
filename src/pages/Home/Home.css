@@ -1,0 +1,9 @@
+.home-container {
+    display: flex;
+    width: 95%;
+    height: 120vh;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

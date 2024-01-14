@@ -1,0 +1,19 @@
+.home-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 1000px;
+}
+.posts {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    height: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    gap: 1rem;
+}

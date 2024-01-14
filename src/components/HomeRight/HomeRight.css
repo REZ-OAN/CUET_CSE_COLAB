@@ -1,0 +1,32 @@
+.home-right-container {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 0px;
+}
+.h2 {
+    font-size: 30px;
+    height: 60px;
+    margin: 0px;
+    border-radius: 10px;
+    font-family: "Lato";
+    background-color: rgba(252, 148, 3, 0.461);
+    backdrop-filter: blur(38px);
+    width: 100%;
+    border: 1px solid var(--txt-color);
+    color: var(--txt-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-topics {
+    margin-top: 10px;
+    height: 350px;
+    display: flex;
+    overflow-y: scroll;
+    gap: 10px;
+    flex-direction: column;
+}

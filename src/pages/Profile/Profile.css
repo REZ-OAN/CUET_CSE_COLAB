@@ -1,0 +1,119 @@
+.profile-container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: var(--bg-color);
+    justify-content: space-between;
+}
+.profile-info-right {
+    width: 40%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-photo {
+    width: 450px;
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-self: start;
+    border: 1.5px solid var(--txt-color);
+}
+.profile-short-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-name {
+    color: var(--txt-color);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Lota";
+    font-weight: 700;
+}
+.profile-works {
+    font-size: 18px;
+    font-family: "Lota";
+    font-weight: 700;
+    color: #777;
+}
+.profile-short-address {
+    font-size: 16px;
+    font-family: "Lota";
+}
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 50px;
+}
+.profile-update {
+    width: 450px;
+    padding: 20px 0;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: white;
+    justify-content: flex-start;
+    border-radius: 15px;
+    border: 1.5px solid var(--txt-color);
+}
+.profile-navigation {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.detailed-info {
+    width: 87%;
+    color: var(--txt-color);
+    background-color: white;
+    padding: 20px;
+    font-size: 22px;
+    font-family: "Lota";
+    border-radius: 15px;
+    border: 1.5px solid var(--txt-color);
+}
+.profile-detailed-cols {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+.update-navigation {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.profile-detailed-cols span:first-child {
+    font-weight: 700;
+}
+.profile-detailed-cols span:last-child {
+    color: #4e4c4c;
+}
+.actual-navigation {
+    width: 40%;
+    border-radius: 15px;
+    display: flex;
+    padding: 20px 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1.5px solid var(--txt-color);
+}

@@ -1,0 +1,45 @@
+.auth-container {
+    font-family: "Lato", "Roboto", sans-serif;
+    width: 95%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--bg-color);
+    display: flex;
+    color: var(--txt-color);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info-side {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 5px #00000038; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-side {
+    font-family: "Lota";
+    font-size: 50px;
+    align-items: start;
+}
+.logo-side > h1 {
+    margin-top: -50px;
+}
+.logo-side > img {
+    width: 500px;
+}
+.preview-image {
+    height: 300px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.preview-image > img {
+    height: 280px;
+    width: 440px;
+    border-radius: 15px;
+}

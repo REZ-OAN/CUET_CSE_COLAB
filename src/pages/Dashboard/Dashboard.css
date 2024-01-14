@@ -1,0 +1,72 @@
+.admin-dashboard {
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+}
+.dashboard-panel {
+    width: 75%;
+    border: 1.5px solid #19265f;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+.monitizing-divs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.num {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Lota";
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    justify-content: center;
+    background-color: rgba(37, 55, 136, 0.3);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    border: 2px solid #19265f;
+}
+.monitizing-divs .num:nth-child(2) {
+    background-color: rgba(236, 163, 61, 0.6);
+}
+.monitizing-divs .num:nth-child(3) {
+    background-color: rgba(61, 236, 116, 0.6);
+}
+.monitizing-divs .num:last-child {
+    background-color: rgba(236, 201, 61, 0.6);
+}
+.approval-tables > div {
+    width: 100%;
+}
+.approval-tables {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.approval-tables h2 {
+    color: var(--txt-color);
+    border-bottom: 2px solid #777;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 30%;
+}
